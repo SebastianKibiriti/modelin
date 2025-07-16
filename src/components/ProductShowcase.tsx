@@ -16,7 +16,7 @@ const ProductShowcase = () => {
       name: 'Hello World',
       icon: Palette,
       description: 'Transform your creative ideas into stunning visual content with AI-assisted design tools.',
-      image: 'public/helloworldicon.png',
+      image: '/helloworldicon.png',
       features: ['Code Demonstrations', 'Multi-Language Support', 'No-Setup Playground'],
       url: 'https://helloworld.modelinfer.tech',
       color: 'from-purple-500 to-purple-600'
