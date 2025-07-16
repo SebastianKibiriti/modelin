@@ -27,6 +27,7 @@ const ProductShowcase = () => {
       description: 'Launch your business ideas with AI-generated business plans, strategies, and market analysis.',
       image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600',
       features: ['Gamified Chore System', 'AI-Powered Interaction'],
+      url: 'https://homesoldier.modelinfer.tech/',
       color: 'from-emerald-500 to-emerald-600'
     },
     {
