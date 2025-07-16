@@ -34,7 +34,7 @@ const ProductShowcase = () => {
       name: 'Following',
       icon: Users,
       description: 'Build and manage online communities with intelligent moderation and engagement tools.',
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: '/a-photograph-of-a-blocky-pixelated-bbk-c_vOg4VbZ3TBWIuKzxLBr8vg_dyKg0WfmSBqxzWYSgGyWmQ.jpeg',
       features: ['Smart Moderation', 'Engagement Analytics', 'Member Matching'],
       url: 'https://following.modelinfer.tech',
       color: 'from-blue-500 to-blue-600'
