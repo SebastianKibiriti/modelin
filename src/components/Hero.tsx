@@ -10,8 +10,8 @@ const Hero = () => {
         direction="diagonal"
         speed={0.2}
         squareSize={30}
-        borderColor="#1a1a1a"
-        hoverFillColor="#222"
+        borderColor="#0d2d2d" // A dark teal for the grid lines
+        hoverFillColor="#2c1a3a" // A dark purple for the hover effect
       />
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
