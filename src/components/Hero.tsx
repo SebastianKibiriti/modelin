@@ -1,10 +1,19 @@
 import React from 'react';
 import { ArrowRight, Brain, Code, Sparkles } from 'lucide-react';
+import { Squares } from './ui/squares-background';
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-20 pb-16 bg-[#101010] overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="home" className="relative pt-20 pb-16 overflow-hidden">
+      <Squares
+        className="absolute inset-0"
+        direction="diagonal"
+        speed={0.2}
+        squareSize={30}
+        borderColor="#0d2d2d" // A dark teal for the grid lines
+        hoverFillColor="#2c1a3a" // A dark purple for the hover effect
+      />
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
           {/* Content */}
           <div className="max-w-xl lg:max-w-none">

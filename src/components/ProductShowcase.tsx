@@ -7,7 +7,7 @@ const ProductShowcase = () => {
       name: 'Socrate',
       icon: MapPin,
       description: 'The AI-powered topic teaching companion that guides you to the right answer, without giving it away..',
-      image: 'public/a-thought-provoking-illustration-of-a-ab_52d9SGxvRO-sVFxax9dE_w_uJtSwVmVR8uu6JuKvIMU5Q.jpeg',
+      image: '/a-thought-provoking-illustration-of-a-ab_52d9SGxvRO-sVFxax9dE_w_uJtSwVmVR8uu6JuKvIMU5Q.jpeg',
       features: ['On-Demand Topic Exploration', 'Real-time Voice Conversation', 'Engaging & Modern User Interface'],
       url: 'https://socratic.modelinfer.tech',
       color: 'from-teal-500 to-teal-600'
@@ -16,7 +16,7 @@ const ProductShowcase = () => {
       name: 'Hello World',
       icon: Palette,
       description: 'Transform your creative ideas into stunning visual content with AI-assisted design tools.',
-      image: '/home/project/public/helloworldicon.png',
+      image: '/helloworldicon.png',
       features: ['Code Demonstrations', 'Multi-Language Support', 'No-Setup Playground'],
       url: 'https://helloworld.modelinfer.tech',
       color: 'from-purple-500 to-purple-600'
