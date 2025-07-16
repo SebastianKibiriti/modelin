@@ -19,10 +19,10 @@ const Footer = () => {
               No coding required, just pure innovation.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-500 hover:text-teal-400 transition-colors">
+              <a href="https://x.com/directors_comp" className="text-gray-500 hover:text-teal-400 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-500 hover:text-teal-400 transition-colors">
+              <a href="https://github.com/SebastianKibiriti" className="text-gray-500 hover:text-teal-400 transition-colors">
                 <Github className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-500 hover:text-teal-400 transition-colors">
