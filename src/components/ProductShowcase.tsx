@@ -7,7 +7,7 @@ const ProductShowcase = () => {
       name: 'Socrate',
       icon: MapPin,
       description: 'The AI-powered topic teaching companion that guides you to the right answer, without giving it away..',
-      image: 'public/boxerbill logo.jpeg',
+      image: 'https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       features: ['On-Demand Topic Exploration', 'Real-time Voice Conversation', 'Engaging & Modern User Interface'],
       url: 'https://socratic.modelinfer.tech',
       color: 'from-teal-500 to-teal-600'
