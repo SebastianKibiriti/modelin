@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section id="home" className="relative pt-20 pb-16 overflow-hidden">
       <Squares
-        className="absolute inset-0 -z-10"
+        className="absolute inset-0"
         direction="diagonal"
         speed={0.2}
         squareSize={30}
