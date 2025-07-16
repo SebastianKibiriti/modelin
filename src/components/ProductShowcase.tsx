@@ -25,7 +25,7 @@ const ProductShowcase = () => {
       name: 'Home Soldier',
       icon: Briefcase,
       description: 'Launch your business ideas with AI-generated business plans, strategies, and market analysis.',
-      image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: '/a-bold-black-and-red-ink-illustration-in_H7rh51esQ8e4jQRG6YaNVw_HWDpBgdLTJ-OUBpr9mOpeA.jpeg',
       features: ['Gamified Chore System', 'AI-Powered Interaction'],
       url: 'https://homesoldier.modelinfer.tech/',
       color: 'from-emerald-500 to-emerald-600'
