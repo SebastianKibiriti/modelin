@@ -39,11 +39,11 @@ const CTA = () => {
           <div className="mt-8 flex flex-col sm:flex-row justify-center items-center gap-6 text-white/80">
             <div className="flex items-center">
               <span className="w-2 h-2 bg-green-400 rounded-full mr-2"></span>
-              No credit card required
+              Open for any vibe coding gigs.
             </div>
             <div className="flex items-center">
               <span className="w-2 h-2 bg-green-400 rounded-full mr-2"></span>
-              Start building immediately
+              Fast deployment
             </div>
             <div className="flex items-center">
               <span className="w-2 h-2 bg-green-400 rounded-full mr-2"></span>
