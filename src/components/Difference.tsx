@@ -1,7 +1,7 @@
 import React from 'react';
 import { Zap, Code2, Rocket, BarChart3 } from 'lucide-react';
 
-const Igniting = () => {
+const Difference = () => {
   const features = [
     {
       icon: Zap,
@@ -81,4 +81,4 @@ const Igniting = () => {
   );
 };
 
-export default Igniting;
+export default Difference;
