@@ -7,6 +7,7 @@ const ProductShowcase = () => {
       name: 'Socrate',
       icon: MapPin,
       description: 'The AI-powered topic teaching companion that guides you to the right answer, without giving it away..',
+      imageCredit: 'AI Generated',
       image: '/a-thought-provoking-illustration-of-a-ab_52d9SGxvRO-sVFxax9dE_w_uJtSwVmVR8uu6JuKvIMU5Q.jpeg',
       features: ['On-Demand Topic Exploration', 'Real-time Voice Conversation', 'Engaging & Modern User Interface'],
       url: 'https://socratic.modelinfer.tech',
@@ -16,6 +17,7 @@ const ProductShowcase = () => {
       name: 'Hello World',
       icon: Palette,
       description: 'Transform your creative ideas into stunning visual content with AI-assisted design tools.',
+      imageCredit: 'ModelInfer',
       image: '/helloworldicon.png',
       features: ['Code Demonstrations', 'Multi-Language Support', 'No-Setup Playground'],
       url: 'https://helloworld.modelinfer.tech',
@@ -25,6 +27,7 @@ const ProductShowcase = () => {
       name: 'Home Soldier',
       icon: Briefcase,
       description: 'Launch your business ideas with AI-generated business plans, strategies, and market analysis.',
+      imageCredit: 'AI Generated',
       image: '/a-bold-black-and-red-ink-illustration-in_H7rh51esQ8e4jQRG6YaNVw_HWDpBgdLTJ-OUBpr9mOpeA.jpeg',
       features: ['Gamified Chore System', 'AI-Powered Interaction'],
       url: 'https://homesoldier.modelinfer.tech/',
@@ -34,6 +37,7 @@ const ProductShowcase = () => {
       name: 'Following',
       icon: Users,
       description: 'Build and manage online communities with intelligent moderation and engagement tools.',
+      imageCredit: 'AI Generated',
       image: '/a-photograph-of-a-blocky-pixelated-bbk-c_vOg4VbZ3TBWIuKzxLBr8vg_dyKg0WfmSBqxzWYSgGyWmQ.jpeg',
       features: ['Smart Moderation', 'Engagement Analytics', 'Member Matching'],
       url: 'https://following.modelinfer.tech',
@@ -69,6 +73,12 @@ const ProductShowcase = () => {
                   <div className={`absolute top-4 left-4 p-3 bg-gradient-to-r ${product.color} rounded-xl`}>
                     <IconComponent className="h-6 w-6 text-white" />
                   </div>
+                  {/* Image Credit */}
+                  {product.imageCredit && (
+                    <div className="absolute bottom-2 right-2 bg-black/50 text-white/80 text-xs px-2 py-1 rounded">
+                      Photo by {product.imageCredit}
+                    </div>
+                  )}
                 </div>
 
                 {/* Product Content */}
