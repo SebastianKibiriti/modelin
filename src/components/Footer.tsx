@@ -19,10 +19,10 @@ const Footer = () => {
               No coding required, just pure innovation.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-500 hover:text-teal-400 transition-colors">
+              <a href="https://x.com/directors_comp" className="text-gray-500 hover:text-teal-400 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-500 hover:text-teal-400 transition-colors">
+              <a href="https://github.com/SebastianKibiriti" className="text-gray-500 hover:text-teal-400 transition-colors">
                 <Github className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-500 hover:text-teal-400 transition-colors">
@@ -49,15 +49,15 @@ const Footer = () => {
             <div className="space-y-3 text-gray-400">
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-2 text-teal-400" />
-                <span className="text-sm">hello@modelinfer.com</span>
+                <span className="text-sm">skibiriti163@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-4 w-4 mr-2 text-teal-400" />
-                <span className="text-sm">+1 (555) 123-4567</span>
+                <span className="text-sm"></span>
               </div>
               <div className="flex items-center">
                 <MapPin className="h-4 w-4 mr-2 text-teal-400" />
-                <span className="text-sm">San Francisco, CA</span>
+                <span className="text-sm">South Africa</span>
               </div>
             </div>
           </div>
@@ -66,13 +66,8 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm">
-            © 2025 ModelInfer. All rights reserved. Built with AI-powered innovation.
+            ModelInfer. Made with Bolt.new
           </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-gray-500 hover:text-teal-400 text-sm transition-colors">Privacy Policy</a>
-            <a href="#" className="text-gray-500 hover:text-teal-400 text-sm transition-colors">Terms of Service</a>
-            <a href="#" className="text-gray-500 hover:text-teal-400 text-sm transition-colors">Cookie Policy</a>
-          </div>
         </div>
       </div>
     </footer>
