@@ -18,7 +18,7 @@ const ProductShowcase = () => {
       icon: Palette,
       description: 'Transform your creative ideas into stunning visual content with AI-assisted design tools.',
       imageCredit: 'ModelInfer',
-      image: '/helloworldicon.png',
+      image: '/markus-spiske-iar-afB0QQw-unsplash.jpg',
       features: ['Code Demonstrations', 'Multi-Language Support', 'No-Setup Playground'],
       url: 'https://helloworld.modelinfer.tech',
       color: 'from-purple-500 to-purple-600'
