@@ -15,7 +15,7 @@ function App() {
       <main>
         <Hero />
         <ProductShowcase />
-        <Igniting />
+        <Difference />
         <UseCase />
         <Feedback />
         <CTA />
