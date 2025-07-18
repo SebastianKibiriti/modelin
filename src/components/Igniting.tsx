@@ -1,7 +1,7 @@
 import React from 'react';
 import { Zap, Code2, Rocket, BarChart3 } from 'lucide-react';
 
-const Difference = () => {
+const Igniting = () => {
   const features = [
     {
       icon: Zap,
