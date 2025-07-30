@@ -11,7 +11,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="p-2 bg-gradient-to-br from-teal-500 to-teal-600 rounded-lg">
-              <Zap className="h-6 w-6 text-blue" />
+              <Zap className="h-6 w-6 text-white" />
             </div>
             <span className="text-xl font-bold text-white">ModelInfer</span>
           </div>
