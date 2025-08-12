@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Users, MapPin, Briefcase, Palette } from 'lucide-react';
+import { ExternalLink, Users, MapPin, Briefcase, Palette, Home, Lock, Target, Eye, Layers } from 'lucide-react';
 
 const ProductShowcase = () => {
   const products = [
@@ -42,6 +42,56 @@ const ProductShowcase = () => {
       features: ['Smart Moderation', 'Engagement Analytics', 'Member Matching'],
       url: 'https://following.modelinfer.tech',
       color: 'from-blue-500 to-blue-600'
+    },
+    {
+      name: 'BabySafe AI',
+      icon: Home,
+      description: 'Analyzes images of your home to identify potential safety hazards for your baby, helping you create a safer environment.',
+      imageCredit: 'Pexels',
+      image: 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      features: [],
+      url: '#',
+      color: 'from-pink-500 to-pink-600'
+    },
+    {
+      name: 'Video Lock: AI Passcode',
+      icon: Lock,
+      description: 'A futuristic security application that uses a pre-recorded video pattern as a passcode. The app leverages AI to analyze and verify video gestures for unlocking a secure vault.',
+      imageCredit: 'Pexels',
+      image: 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      features: [],
+      url: '#',
+      color: 'from-blue-700 to-blue-800'
+    },
+    {
+      name: 'Geo Distance Estimator',
+      icon: Target,
+      description: 'An application to estimate the distance to a visible target by using the camera, user location, and AI-powered search to identify the target\'s coordinates.',
+      imageCredit: 'Pexels',
+      image: 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      features: [],
+      url: '#',
+      color: 'from-green-700 to-green-800'
+    },
+    {
+      name: 'Gemini Vision Annotator',
+      icon: Eye,
+      description: 'An interactive web application that uses your device\'s camera to capture video, analyzes frames in real-time with the Gemini API to detect objects, and overlays bounding boxes with labels on the live video feed.',
+      imageCredit: 'Pexels',
+      image: 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      features: [],
+      url: '#',
+      color: 'from-red-500 to-red-600'
+    },
+    {
+      name: 'Laser Engraving Previewer',
+      icon: Layers,
+      description: 'Upload an image, select material and detail level, and get a simulated preview of a laser metal engraving, along with AI-powered tips.',
+      imageCredit: 'Pexels',
+      image: 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      features: [],
+      url: '#',
+      color: 'from-gray-600 to-gray-700'
     }
   ];
 
@@ -58,6 +108,7 @@ const ProductShowcase = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => {
             const IconComponent = product.icon;
             return (
@@ -87,7 +138,8 @@ const ProductShowcase = () => {
                   <p className="text-gray-300 mb-4 leading-relaxed">{product.description}</p>
                   
                   {/* Features */}
-                  <div className="flex flex-wrap gap-2 mb-6">
+                  {product.features.length > 0 && (
+                    <div className="flex flex-wrap gap-2 mb-6">
                     {product.features.map((feature, featureIndex) => (
                       <span 
                         key={featureIndex} 
@@ -96,13 +148,20 @@ const ProductShowcase = () => {
                         {feature}
                       </span>
                     ))}
-                  </div>
+                    </div>
+                  )}
 
                   {/* CTA Button */}
-                  <a href={product.url} target="_blank" rel="noopener noreferrer" className={`w-full bg-gradient-to-r ${product.color} text-white py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center group`}>
+                  {product.url === '#' ? (
+                    <div className={`w-full bg-gradient-to-r ${product.color} text-white py-3 px-6 rounded-lg font-semibold opacity-50 flex items-center justify-center cursor-not-allowed`}>
+                      Coming Soon
+                    </div>
+                  ) : (
+                    <a href={product.url} target="_blank" rel="noopener noreferrer" className={`w-full bg-gradient-to-r ${product.color} text-white py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center group`}>
                     Try {product.name} Now!
                     <ExternalLink className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                  </a>
+                    </a>
+                  )}
                 </div>
               </div>
             );
