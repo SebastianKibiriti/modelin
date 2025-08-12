@@ -50,7 +50,7 @@ const ProductShowcase = () => {
       imageCredit: 'Pexels',
       image: 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       features: [],
-      url: '#',
+      url: 'https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221sM6a6BUmM4nw1W1w3LhxxOQ7kYQgOUXV%22%5D,%22action%22:%22open%22,%22userId%22:%22111257925133711502086%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing',
       color: 'from-pink-500 to-pink-600'
     },
     {
@@ -60,7 +60,7 @@ const ProductShowcase = () => {
       imageCredit: 'Pexels',
       image: 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       features: [],
-      url: '#',
+      url: 'https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221CuqeD9fDWInhit0NT-4dovCa0_xoWSUz%22%5D,%22action%22:%22open%22,%22userId%22:%22111257925133711502086%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing',
       color: 'from-blue-700 to-blue-800'
     },
     {
@@ -70,7 +70,7 @@ const ProductShowcase = () => {
       imageCredit: 'Pexels',
       image: 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       features: [],
-      url: '#',
+      url: 'https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221KU0KHkgoQR_mcFAv1eURvws-JKMeyWHa%22%5D,%22action%22:%22open%22,%22userId%22:%22111257925133711502086%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing',
       color: 'from-green-700 to-green-800'
     },
     {
@@ -80,7 +80,7 @@ const ProductShowcase = () => {
       imageCredit: 'Pexels',
       image: 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       features: [],
-      url: '#',
+      url: 'https://aistudio.google.com/apps/drive/1y3RqzCU-k1uOZyGo-uhCdjf7Pzh_tBk_?showPreview=true&resourceKey=',
       color: 'from-red-500 to-red-600'
     },
     {
@@ -90,7 +90,17 @@ const ProductShowcase = () => {
       imageCredit: 'Pexels',
       image: 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       features: [],
-      url: '#',
+      url: 'https://aistudio.google.com/apps/drive/1ZEqfuQSmcWx-RP9UObwS0BTlbRzlAIZk?showPreview=true&resourceKey=',
+      color: 'from-gray-600 to-gray-700'
+    },
+    {
+      name: 'Dev.to Challenge Tracker',
+      icon: Layers,
+      description: 'Upload an image, select material and detail level, and get a simulated preview of a laser metal engraving, along with AI-powered tips.',
+      imageCredit: 'Pexels',
+      image: 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      features: [],
+      url: 'https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221XGHguh5GQ5LpRKua5a7KMRIIQoAqMb7U%22%5D,%22action%22:%22open%22,%22userId%22:%22111257925133711502086%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing',
       color: 'from-gray-600 to-gray-700'
     },
     {
