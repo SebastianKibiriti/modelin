@@ -92,6 +92,16 @@ const ProductShowcase = () => {
       features: [],
       url: '#',
       color: 'from-gray-600 to-gray-700'
+    },
+    {
+      name: 'S-Status',
+      icon: Layers,
+      description: 'Give and recieve impressions and scores on the people you intereact with. Whether your boss, coleagues, or anyone.',
+      imageCredit: 'Pexels',
+      image: 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      features: [],
+      url: '#',
+      color: 'from-gray-600 to-gray-700'
     }
   ];
 
